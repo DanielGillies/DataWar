@@ -31,7 +31,7 @@ var config={
 		pollTime:50000
 	},
 	audio: {
-		autoplay:true,
+		autoplay:false,
 		selectedSong:1
 	},
 	eq:{
