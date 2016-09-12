@@ -151,8 +151,10 @@ function init() {
     init_keys(renderer.domElement);
 
     //Reads kinect data / builds skeleton
+    /* UNCOMMENT THESE 2 LINES TO TURN SKELETON ON
     var bSkeleton = true;
     window.Kinect = connectKinect(bSkeleton);
+    */
 
     window.addEventListener('resize', onWindowResize, false);
 

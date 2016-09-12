@@ -11,8 +11,8 @@ var config={
 		controls:true,
 		position:{x:0, y:10, z:1000},
 		skeleton:{
-			// To turn skeleton on, change scale to 0.01
-			scale: 0.00,
+			// If skeleton is off, uncomment lines 155 & 156 in main.js
+			scale: 0.01,
 			xOffset: 5,
 			zOffset: -25,
 			boneColor:0xFFFFFF,
