@@ -11,7 +11,6 @@ var config={
 		controls:true,
 		position:{x:0, y:10, z:1000},
 		skeleton:{
-			// If skeleton is off, uncomment lines 155 & 156 in main.js
 			scale: 0.01,
 			xOffset: 5,
 			zOffset: -25,

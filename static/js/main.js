@@ -151,7 +151,7 @@ function init() {
     init_keys(renderer.domElement);
 
     //Reads kinect data / builds skeleton
-    var bSkeleton = false;
+    var bSkeleton = true;
     window.Kinect = connectKinect(bSkeleton);
 
 
