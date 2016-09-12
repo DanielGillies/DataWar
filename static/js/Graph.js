@@ -1,5 +1,5 @@
 /**
- @author: Weidong Yang, Modified by Colin Clayton, extending from David Piegza implementation
+ @author: Weidong Yang, Modified by Colin Clayton, Danny Gillies, extending from David Piegza implementation
 
  Implements a graph structure.
  Consists of Graph, Nodes and Edges.
@@ -46,7 +46,6 @@
 
  reached_limit() - returns true if the limit has been reached, otherwise false
 
- modified slightly by Danny Gillies
  */
 "use strict";
 function Graph(options) {
